@@ -1,0 +1,85 @@
+body{
+    /* background: url(/01-Week/Basic-Portfolio/assets/images/background-1.png); */
+    /* background-size: 100%; */
+    background-color:lightgray;
+}
+.header{
+    position: static;
+    max-width: 960px;
+    background: #ffffff;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px
+}
+#header_name{
+    background-color: #4aaaa5;
+    float: left;
+    color: #ffffff;
+    clear: both;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about,#contact,#index {
+    float:right;
+    width:10%;
+    color: #ffffff;
+}
+#header_name2{
+    color: #4aaaa5;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+/* .clearfix{
+    clear: both;
+} */
+.container{
+    clear: left;
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom-color: #4aaaa5;
+    margin: 100px;
+    padding: 20px;
+}
+#bio_im{
+    float:left;
+}
+/* #text_bio{
+    clear:right;
+} */
+
+/* .Allimages{
+    position: relative;
+} */
+.img1,{
+    margin: 20px;
+    position: relative;
+    z-index: -1;
+}
+/* .img2{
+    clear:right;
+    z-index:-1;
+} */
+.text1,.text2{
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 60%;
+}
+.form{
+    padding:30px;
+    margin-top: 30px;
+}
+#textbox{
+    width: 95%;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px; 
+    background-color: #666666;
+    padding: 10px;
+}
